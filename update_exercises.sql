@@ -24,6 +24,7 @@ SELECT sales FROM albums;
 -- SET release_date = release_date - 100
 -- WHERE release_date <= 1980;
 
+
 SELECT 'Subtracting 100 yearss from albums released before 1980' AS 'Query Six';
 SELECT release_date FROM albums WHERE release_date < 1980;
 
